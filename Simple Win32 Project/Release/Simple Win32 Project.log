@@ -1,0 +1,21 @@
+﻿Build started 29/04/2012 19:11:11.
+     1>Project "C:\Users\Bright\Desktop\CW2\3D Village\Simple Win32 Project\Simple Win32 Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Simple Win32 Project.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Simple Win32 Project.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Simple Win32 Project.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BinaryReader.cpp DirectXShell.cpp "Simple Win32 Project.cpp" Timer.cpp
+         BinaryReader.cpp
+     1>BinaryReader.cpp(14): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(240) : see declaration of '_open'
+         DirectXShell.cpp
+     1>c:\users\bright\desktop\cw2\3d village\simple win32 project\DirectXShell.h(5): fatal error C1083: Cannot open include file: 'd3dx9math.h': No such file or directory
+         Simple Win32 Project.cpp
+     1>c:\users\bright\desktop\cw2\3d village\simple win32 project\DirectXShell.h(5): fatal error C1083: Cannot open include file: 'd3dx9math.h': No such file or directory
+         Timer.cpp
+     1>Done Building Project "C:\Users\Bright\Desktop\CW2\3D Village\Simple Win32 Project\Simple Win32 Project.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.25
